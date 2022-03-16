@@ -6,9 +6,11 @@ void main()
 	int b[5] = { 15,25,35,45,55 };
 	int c[5];
 	printf("Array c[i] =");
+	//Adding elements from two arrays 
 	for (int i = 0; i < 5; i++)
 	{
 		c[i] = a[i] + b[i];
+		//Display the result in third array
 		printf(" %d ", c[i]);
 	}	
 }

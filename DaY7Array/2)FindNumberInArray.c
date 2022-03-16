@@ -6,9 +6,12 @@ Print its's position and count*/
 void main()
 {
     int num, count = 0;
+    //Initialize Array
     int arr[8] = { 10, 53, 20, 20, 26, 93, 78, 93 };
+    //Accpet a number from user to be searched
     printf("Enter a number\n");
     scanf("%d", &num);
+    //Check if number is present in the array and count it's occurence
     for (int i = 0; i < 8; i++)
     {
         if (arr[i] == num)
